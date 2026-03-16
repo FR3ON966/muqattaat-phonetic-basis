@@ -417,7 +417,8 @@ Welch, A. T. (1979). Formulaic features of the punishment-stories. In I. J. Boul
 
 ## Appendix B: Reproducibility
 
-The complete analysis code (Python 3, NumPy, SciPy) and the PHOIBLE data extract are available at [https://github.com/FR3ON966/muqattaat-phonetic-basis]. The analysis comprises three scripts:
+The complete analysis code (Python 3, NumPy, SciPy) and the PHOIBLE data extract are available at [https://github.com/FR3ON966/muqattaat-phonetic-basis
+DOI: 10.5281/zenodo.19041983]. The analysis comprises three scripts:
 
 1. `muqattaat_analysis.py` — Full phoneme space analysis (7D, including syllabicity)
 2. `muqattaat_consonant_analysis.py` — Consonant-only analysis (6D, primary results)
