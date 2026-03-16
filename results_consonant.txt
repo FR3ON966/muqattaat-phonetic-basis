@@ -1,0 +1,66 @@
+RESULT_RANK: 6/6 vs 6/6
+RESULT_COVERAGE: 100.00% (percentile: 100.0%)
+RESULT_PVALUE: 1.000000
+RESULT_SVD_M: 2 dimensions
+RESULT_SVD_W: 2 dimensions
+RESULT_HULL_PERCENTILE: 22.4%
+RESULT_ARTICULATION: 5/8
+RESULT_UNIVERSAL_MATCH: 9/50 top consonants in Muqatta'at directly
+RESULT_UNIVERSAL_COVERAGE: 100.0% of top 50 representable by Muqatta'at
+RESULT_UNIQUENESS_RANK: top 25.9% of all full-rank 14-consonant sets
+RESULT_N_CONSONANTS: 1980
+RESULT_N_LANGUAGES: 2177
+
+TOP_50_UNIVERSAL_CONSONANTS:
+  /m  / : 97.0% languages | In Muqatta'at: YES
+  /k  / : 92.1% languages | In Muqatta'at: YES
+  /j  / : 91.5% languages | In Muqatta'at: YES
+  /p  / : 87.0% languages | In Muqatta'at: NO
+  /w  / : 86.5% languages | In Muqatta'at: NO
+  /n  / : 84.7% languages | In Muqatta'at: YES
+  /t  / : 76.1% languages | In Muqatta'at: NO
+  /l  / : 72.7% languages | In Muqatta'at: YES
+  /s  / : 70.3% languages | In Muqatta'at: YES
+  /ŋ  / : 65.4% languages | In Muqatta'at: NO
+  /b  / : 63.6% languages | In Muqatta'at: NO
+  /h  / : 57.8% languages | In Muqatta'at: YES
+  /ɡ  / : 57.6% languages | In Muqatta'at: NO
+  /r  / : 50.5% languages | In Muqatta'at: YES
+  /d  / : 50.4% languages | In Muqatta'at: NO
+  /ɲ  / : 44.7% languages | In Muqatta'at: NO
+  /f  / : 44.5% languages | In Muqatta'at: NO
+  /t̠ʃ/ : 42.1% languages | In Muqatta'at: NO
+  /ʔ  / : 38.9% languages | In Muqatta'at: YES
+  /ʃ  / : 35.9% languages | In Muqatta'at: NO
+  /z  / : 31.3% languages | In Muqatta'at: NO
+  /d̠ʒ/ : 29.4% languages | In Muqatta'at: NO
+  /v  / : 28.3% languages | In Muqatta'at: NO
+  /ɾ  / : 28.2% languages | In Muqatta'at: NO
+  /t̪ / : 25.4% languages | In Muqatta'at: NO
+  /ts / : 23.8% languages | In Muqatta'at: NO
+  /n̪ / : 19.5% languages | In Muqatta'at: NO
+  /x  / : 18.9% languages | In Muqatta'at: NO
+  /kʰ / : 18.0% languages | In Muqatta'at: NO
+  /pʰ / : 17.4% languages | In Muqatta'at: NO
+  /ʈ  / : 16.4% languages | In Muqatta'at: NO
+  /c  / : 16.1% languages | In Muqatta'at: NO
+  /ʒ  / : 15.2% languages | In Muqatta'at: NO
+  /ȵ  / : 15.2% languages | In Muqatta'at: NO
+  /d̪ / : 15.1% languages | In Muqatta'at: NO
+  /ɣ  / : 15.0% languages | In Muqatta'at: NO
+  /ɳ  / : 14.6% languages | In Muqatta'at: NO
+  /ɟ  / : 14.3% languages | In Muqatta'at: NO
+  /kp / : 14.1% languages | In Muqatta'at: NO
+  /ɡb / : 14.0% languages | In Muqatta'at: NO
+  /tʰ / : 13.8% languages | In Muqatta'at: NO
+  /kʷ / : 13.6% languages | In Muqatta'at: NO
+  /ɭ  / : 13.4% languages | In Muqatta'at: NO
+  /mb / : 12.5% languages | In Muqatta'at: NO
+  /ȶ  / : 12.4% languages | In Muqatta'at: NO
+  /ɻ  / : 12.2% languages | In Muqatta'at: NO
+  /β  / : 11.9% languages | In Muqatta'at: NO
+  /nd / : 11.7% languages | In Muqatta'at: NO
+  /ŋɡ / : 11.6% languages | In Muqatta'at: NO
+  /dz / : 11.4% languages | In Muqatta'at: NO
+
+The Muqatta'at matrix reaches full rank (6/6) in the target consonant space, confirming mathematical basis properties without the zero-variance interference of vowels. It provides a linear combination representing 100.0% of all 1980 human consonants, which sits at the 100.0th percentile compared to random valid 14-letter sets (p=1.0000). Typologically, it captures the core of human language, exactly containing 9/50 of the most universal consonants and mathematically representing 100.0% of them (at the 100.0th percentile). Geometrically, it exhibits a spread spanning 5/8 articulatory regions (volume percentile: 22.4%). CONCLUSION: The hypothesis is partially supported. As a consonant-only basis, the Muqatta'at reach full structural rank and provide above-average coverage of universal consonants. However, they are mathematically non-unique, as numerous random 14-consonant sets drawn from global phonology can achieve equivalent or superior spanning properties.

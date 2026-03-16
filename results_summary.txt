@@ -1,0 +1,52 @@
+MUQATTAAT PHONETIC BASIS HYPOTHESIS TEST
+============================================================
+
+RESULT_RANK: 6/7 vs 7/7
+RESULT_COVERAGE: 67.92% (percentile: 2.4%)
+RESULT_SVD_M: 2 dimensions
+RESULT_SVD_W: 2 dimensions
+RESULT_HULL_PERCENTILE: 29.6%
+RESULT_ARTICULATION: 5/9 regions covered
+RESULT_PVALUE: 0.980600
+RESULT_N_PHONEMES: 2915
+RESULT_N_LANGUAGES: 2177
+
+CONCLUSION: The Muqattaat matrix has rank 6, falling short of the world matrix rank 7. This means the 14 letters do NOT span the complete feature space in this encoding. Coverage is 67.9% (2th percentile)—at or below what random 14-phoneme selections achieve (mean 93.8%). SVD shows 2 dimension(s) capture 95% of Muqattaat variance vs 2 for world phonemes. Geometric spread is at the 30th percentile vs random sets. Articulation coverage: 5/9 regions (matched 5/9 populated regions). Monte Carlo p-value for coverage: 0.980600. The hypothesis is NOT supported by this analysis. The Muqattaat do not achieve full rank in the 7-feature space, and their coverage does not exceed random expectations. This is likely because consonant-only sets inherently lack syllabic vowel coverage, and the 14 letters cluster in certain articulatory regions. A stronger test would require a higher-dimensional feature representation and/or comparison with other typologically diverse 14-consonant sets.
+
+
+DETAILED DATA:
+------------------------------------------------------------
+
+Muqattaat mappings:
+  Alef (ا) -> /ʔ/: [9.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  Ayn (ع) -> /ʕ/: [8.25, 1.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  Ha (ه) -> /h/: [9.5, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+  Hha (ح) -> /ħ/: [8.25, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+  Kaf (ك) -> /k/: [6.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  Lam (ل) -> /l/: [5.0, 5.0, 1.0, 0.0, 0.0, 1.0, 1.0]
+  Mim (م) -> /m/: [0.5, 3.0, 1.0, 0.0, 1.0, 0.0, 0.0]
+  Nun (ن) -> /n/: [5.0, 3.0, 1.0, 0.0, 1.0, 0.0, 0.0]
+  Qaf (ق) -> /q/: [8.25, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  Ra (ر) -> /r/: [5.0, 4.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  Sad (ص) -> /sˤ/: [5.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+  Sin (س) -> /s/: [5.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+  Ta (ط) -> /tˤ/: [5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  Ya (ي) -> /j/: [6.5, 5.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+
+SVD M: [25.6182, 7.9615, 1.862, 1.0725, 0.8113, 0.6953, 0.0]
+SVD W: [352.8542, 136.0406, 22.1765, 20.2176, 17.8645, 14.2152, 9.628]
+
+Monte Carlo (10,000):
+  Coverage: mean=93.80%, std=8.23%, muq=67.92%
+  Spread: mean=0.002969, std=0.004820, muq=0.000000
+
+Region coverage:
+  bilabial: muq=1, world=535
+  labiodental: muq=0, world=42
+  dental: muq=0, world=289
+  alveolar: muq=6, world=881
+  palatal: muq=2, world=328
+  velar: muq=0, world=540
+  uvular: muq=3, world=203
+  pharyngeal: muq=0, world=3
+  glottal: muq=2, world=94
